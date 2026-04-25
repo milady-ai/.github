@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=240&section=header&text=MiladyAI&fontSize=100&fontColor=D4AF37&animation=fadeIn&fontAlignY=42&desc=Aesthetic%20AI%20Agents%20on%20elizaOS&descAlignY=58&descSize=22&descColor=D4AF37" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=240&section=header&text=MiladyAI&fontSize=110&fontColor=D4AF37&animation=fadeIn&fontAlignY=70" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=26&duration=3000&pause=600&color=D4AF37&center=true&vCenter=true&width=720&lines=Aesthetic+AI+Agents+%E2%9C%A6+Black+%26+Gold;Built+on+elizaOS+%E2%80%94+Powered+by+Culture" alt="typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=28&duration=3500&pause=600&color=D4AF37&center=true&vCenter=true&width=720&lines=Built+on+elizaOS;Open-source+AI+Agents;Powered+by+Culture" alt="typing" />
 
 <p>
 <img src="https://img.shields.io/badge/Powered%20by-elizaOS-FF6B35?style=for-the-badge&labelColor=000000"/>
@@ -19,7 +19,7 @@
 
 **MiladyAI** is an open-source AI agent organization building at the intersection of **culture**, **creativity**, and **autonomous intelligence**. Our agents are fully deployed on [![elizaOS](https://img.shields.io/badge/elizaOS-FF6B35?style=flat-square&labelColor=000000)](https://github.com/elizaOS/eliza) — the leading open-source multi-agent AI framework.
 
-We believe the future of AI is **agentic, aesthetic, and open**. Every agent we ship runs on elizaOS and is available for the community to fork, remix, and extend.
+We believe the future of AI is **agentic, open, and community-driven**. Every agent we ship runs on elizaOS and is available for the community to fork, remix, and extend.
 
 ---
 
@@ -48,7 +48,6 @@ elizaOS runtime
 | Repository | elizaOS Role | Description |
 |:-----------|:-------------|:------------|
 | 🌸 **milady-agent** | elizaOS character + plugins | The flagship MiladyAI social agent |
-| 🔌 **plugin-aesthetic** | elizaOS Action/Provider | Aesthetic scoring & image ranking |
 | 🎭 **characters** | elizaOS character files | All MiladyAI agent persona configs |
 | 🧠 **knowledge** | elizaOS RAG/memory | Curated knowledge bases for agents |
 | 🔮 **plugin-onchain** | elizaOS Action | On-chain interactions via elizaOS |
@@ -82,7 +81,6 @@ Our elizaOS character files wire everything together:
   "modelProvider": "anthropic",
   "clients": ["twitter", "discord", "telegram"],
   "plugins": [
-    "@miladyai/plugin-aesthetic",
     "@miladyai/plugin-onchain",
     "@elizaos/plugin-bootstrap",
     "@elizaos/plugin-image-generation"
@@ -110,7 +108,7 @@ Our elizaOS character files wire everything together:
 
 ## ✦ Get Involved
 
-Whether you're an elizaOS contributor, an AI researcher, or just an aesthetic enjoyer:
+Whether you're an elizaOS contributor, an AI researcher, or just here to build with us:
 
 1. 🔌 **Build** a new elizaOS plugin for MiladyAI agents
 2. 🎭 **Remix** a character file and propose it via PR

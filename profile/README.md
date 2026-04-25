@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=200&section=header&text=MiladyAI&fontSize=80&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Intelligence%20meets%20Aesthetics&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=200&section=header&text=MiladyAI&fontSize=80&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Aesthetic%20AI%20Agents%20on%20elizaOS&descAlignY=55&descSize=20" width="100%"/>
 
 <p>
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge&logo=statuspage&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AI-Powered-blueviolet?style=for-the-badge&logo=openai&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Built%20with-%E2%99%A1-ff69b4?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/License-MIT-0075ca?style=for-the-badge&logo=opensourceinitiative&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Powered%20by-elizaOS-blueviolet?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMiAxNWwtNS01IDEuNDEtMS40MUwxMCAxNC4xN2w3LjU5LTcuNTlMMTkgOGwtOSA5eiIvPjwvc3ZnPg==&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/elizaOS-Agents-ff69b4?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/License-MIT-0075ca?style=for-the-badge"/>
 </p>
 
 </div>
@@ -15,27 +15,78 @@
 
 ## ✦ What is MiladyAI?
 
-**MiladyAI** is an open-source AI organization at the intersection of **culture**, **creativity**, and **intelligent systems**. We build tools, models, and experiments that explore what it means to bring AI into aesthetically-rich, community-driven spaces.
+**MiladyAI** is an open-source AI agent organization building at the intersection of **culture**, **creativity**, and **autonomous intelligence**. Our agents are fully deployed on **[elizaOS](https://github.com/elizaOS/eliza)** — the leading open-source multi-agent AI framework.
 
-We believe great AI should be:
-
-- 🎀 **Beautiful** — thoughtfully designed, visually intentional
-- 🧠 **Intelligent** — grounded in solid engineering and rigorous research  
-- 🌸 **Open** — transparent, community-first, and freely accessible
-- ⚡ **Fast** — performant, lightweight, and production-ready
+We believe the future of AI is **agentic, aesthetic, and open**. Every agent we ship runs on elizaOS and is available for the community to fork, remix, and extend.
 
 ---
 
-## ✦ Our Projects
+## ✦ Built on elizaOS
 
-| Repository | Description | Status |
-|:-----------|:------------|:------:|
-| 🔮 **core** | Core AI inference engine and model utilities | `active` |
-| 🎨 **aesthetic-embeddings** | Vision-language models tuned for aesthetic understanding | `research` |
-| 🌐 **api** | RESTful & streaming API layer for MiladyAI services | `active` |
-| 📦 **sdk** | TypeScript & Python SDKs for integrating MiladyAI | `active` |
-| 🗂️ **datasets** | Curated open datasets for aesthetic & cultural AI | `open` |
-| 📚 **docs** | Full documentation, guides, and references | `active` |
+All MiladyAI agents run on the **[elizaOS](https://github.com/elizaOS/eliza)** runtime. elizaOS is a powerful, modular framework for building autonomous AI agents that operate across social platforms, APIs, and on-chain environments.
+
+```
+elizaOS runtime
+├── AgentRuntime          ← orchestrates everything
+├── Character Files       ← agent persona & config (.json)
+├── Plugins               ← modular capabilities
+│   ├── Actions           ← what the agent does
+│   ├── Providers         ← context fed into the agent
+│   └── Evaluators        ← how the agent scores outputs
+├── Clients               ← Twitter, Discord, Telegram, ...
+└── Memory (RAG)          ← vector-based long-term memory
+```
+
+> 📖 [elizaOS docs](https://eliza.how) · [elizaOS GitHub](https://github.com/elizaOS/eliza) · [elizaOS Discord](https://discord.gg/elizaos)
+
+---
+
+## ✦ Our elizaOS Agents & Projects
+
+| Repository | elizaOS Role | Description |
+|:-----------|:-------------|:------------|
+| 🌸 **milady-agent** | elizaOS character + plugins | The flagship MiladyAI social agent |
+| 🔌 **plugin-aesthetic** | elizaOS Action/Provider | Aesthetic scoring & image ranking |
+| 🎭 **characters** | elizaOS character files | All MiladyAI agent persona configs |
+| 🧠 **knowledge** | elizaOS RAG/memory | Curated knowledge bases for agents |
+| 🔮 **plugin-onchain** | elizaOS Action | On-chain interactions via elizaOS |
+| 📡 **plugin-feeds** | elizaOS Provider | Real-time context injection |
+| 📦 **sdk** | TypeScript/Python | SDK wrapping elizaOS for MiladyAI |
+| 📚 **docs** | — | Documentation and guides |
+
+---
+
+## ✦ elizaOS Plugin Architecture
+
+MiladyAI extends elizaOS through a suite of purpose-built plugins. Here's the core plugin pattern we follow:
+
+```typescript
+import { Plugin } from "@elizaos/core";
+
+export const miladyPlugin: Plugin = {
+  name: "milady-core",
+  description: "Core MiladyAI capabilities for elizaOS agents",
+  actions: [/* elizaOS Actions */],
+  providers: [/* elizaOS Providers */],
+  evaluators: [/* elizaOS Evaluators */],
+};
+```
+
+Our elizaOS character files wire everything together:
+
+```json
+{
+  "name": "Milady",
+  "modelProvider": "anthropic",
+  "clients": ["twitter", "discord", "telegram"],
+  "plugins": [
+    "@miladyai/plugin-aesthetic",
+    "@miladyai/plugin-onchain",
+    "@elizaos/plugin-bootstrap",
+    "@elizaos/plugin-image-generation"
+  ]
+}
+```
 
 ---
 
@@ -43,10 +94,11 @@ We believe great AI should be:
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![elizaOS](https://img.shields.io/badge/elizaOS-framework-blueviolet?style=flat-square)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
@@ -56,18 +108,31 @@ We believe great AI should be:
 
 ## ✦ Get Involved
 
-We're a small, dedicated team that loves collaborators. Here's how to jump in:
+Whether you're an elizaOS contributor, an AI researcher, or just an aesthetic enjoyer:
 
-1. **Explore** our repos and open issues tagged `good first issue`
-2. **Read** our [Contributing Guide](../CONTRIBUTING.md) before submitting PRs
-3. **Join** our community channels (links below)
-4. **Propose** new ideas via GitHub Discussions
+1. 🔌 **Build** a new elizaOS plugin for MiladyAI agents
+2. 🎭 **Remix** a character file and propose it via PR
+3. 🐛 **Fix** bugs — check issues tagged `good first issue`
+4. 📖 **Read** our [Contributing Guide](../CONTRIBUTING.md) to understand the elizaOS plugin workflow
+5. 💬 **Join** the conversation on Discord or GitHub Discussions
 
 > *"The most beautiful machine is the one that understands you."*
 
 ---
 
-## ✦ Community & Links
+## ✦ elizaOS Resources
+
+<div align="center">
+
+[![elizaOS GitHub](https://img.shields.io/badge/elizaOS%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/elizaOS/eliza)
+[![elizaOS Docs](https://img.shields.io/badge/elizaOS%20Docs-0075ca?style=for-the-badge&logo=gitbook&logoColor=white)](https://eliza.how)
+[![elizaOS Discord](https://img.shields.io/badge/elizaOS%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/elizaos)
+
+</div>
+
+---
+
+## ✦ MiladyAI Community
 
 <div align="center">
 
@@ -84,6 +149,6 @@ We're a small, dedicated team that loves collaborators. Here's how to jump in:
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=100&section=footer" width="100%"/>
 
-<sub>Made with 🌸 by the MiladyAI community · <a href="https://github.com/milady-ai">github.com/milady-ai</a></sub>
+<sub>MiladyAI · Built on <a href="https://github.com/elizaOS/eliza">elizaOS</a> · Made with 🌸 by the community · <a href="https://github.com/milady-ai">github.com/milady-ai</a></sub>
 
 </div>

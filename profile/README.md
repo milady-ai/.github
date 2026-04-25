@@ -158,11 +158,9 @@ Whether you're an elizaOS contributor, an AI researcher, or just here to build w
 
 <div align="center">
 
-[![Twitter/X](https://img.shields.io/badge/Twitter%2FX-D4AF37?style=for-the-badge&logo=x&logoColor=black&labelColor=000000)](https://x.com/miladyai)
-[![Discord](https://img.shields.io/badge/Discord-D4AF37?style=for-the-badge&logo=discord&logoColor=black&labelColor=000000)](https://discord.gg/miladyai)
-[![Website](https://img.shields.io/badge/Website-D4AF37?style=for-the-badge&logo=vercel&logoColor=black&labelColor=000000)](https://miladyai.xyz)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-D4AF37?style=for-the-badge&logo=huggingface&logoColor=black&labelColor=000000)](https://huggingface.co/miladyai)
-
+[![Twitter/X](https://img.shields.io/badge/Twitter%2FX-D4AF37?style=for-the-badge&logo=x&logoColor=black&labelColor=000000)](https://x.com/milady_bsc)
+[![Discord](https://img.shields.io/badge/Discord-D4AF37?style=for-the-badge&logo=discord&logoColor=black&labelColor=000000)](https://discord.gg/CXEqC6Ne)
+[![Website](https://img.shields.io/badge/Website-D4AF37?style=for-the-badge&logo=vercel&logoColor=black&labelColor=000000)](https://www.milady.ai)
 </div>
 
 ---
